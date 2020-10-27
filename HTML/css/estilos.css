@@ -91,3 +91,37 @@ body{
     object-fit: cover;
     height: calc(100vh - 70px);
 }
+
+.title{
+    font-size: 56px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.title--active{
+    color: var(--gold1);
+    font-weight: 700;
+}
+
+.copy{
+    font-size: 24px;
+    color: var(--gray);
+    text-shadow:var(--shadow) var(--color_shadow) ;
+    margin: 15px 0;
+}
+
+.copy_active{
+    font-weight: 700;
+}
+
+.cta{
+    padding: 20px 30px;
+    display: inline-block;
+    background: linear-gradient(180deg,#f7cef7 0%,#f4bf76 100%);
+    text-decoration: none;
+    color: var(--black2);
+    font-weight: 700;
+    box-shadow: var(--shadow) var(--color_shadow);
+    border-radius: 30px;
+
+}
