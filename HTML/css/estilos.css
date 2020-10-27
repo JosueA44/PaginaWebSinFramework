@@ -83,13 +83,19 @@ body{
 .hero_main{
     height: calc(100vh - 70px);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0;
 }
 
 .mockup{
     object-fit: cover;
-    height: calc(100vh - 70px);
+    widows: 48%;
+    max-height: 90vh;
+}
+
+.hero_textos{
+    width: 48%;
 }
 
 .title{
@@ -125,3 +131,141 @@ body{
     border-radius: 30px;
 
 }
+
+.services{
+    background: #fafafa;
+}
+
+.subtitle{
+    font-size: 42px;
+}
+
+.subtitle--modifier{
+    text-align: center;
+    margin-bottom: 16px ;
+}
+
+.copy_section{
+    color: var(--black2);
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 60px;
+}
+
+.copy_section--modifier{
+    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 32px;
+}
+
+.container-cards{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+
+.card{
+    width: 30%;
+    padding:30px 0 ;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+}
+
+.card_img{
+    text-align: left;
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 0 10px;
+}
+
+.cards_text{
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.card_list{
+    color: var(--gold2);
+    font-weight: 700;
+    margin: 25px 0 12px;
+    font-size: 18px;
+}
+
+.card_title{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    margin-bottom: 8px;
+}
+
+.card_copy{
+    color: var(--gray2);
+    margin-bottom: 16px;
+}
+
+.card_button{
+    display: block;
+    background: linear-gradient(180deg,#f7cef7 0%,#f4bf76 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    width: 100%;
+    color: var(--black1);
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.card_date{
+    color: var(--gold2);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.container-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.background{
+    width: 68%;
+    height: 290px;
+    height: 290px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.background_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.background_text{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 15px;
+    color: white;
+}
+
+.background__title{
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+/*
+Minuto 15:24
+*/
